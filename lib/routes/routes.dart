@@ -15,7 +15,7 @@ class RouteManager {
 
       case screen2:
         return MaterialPageRoute(
-          builder: (context) => CarsReviews(),
+          builder: (context) => const CarsReviews(),
         );
 
       default:
